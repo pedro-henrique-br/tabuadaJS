@@ -1,0 +1,48 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#instruction {
+  text-align: center;
+}
+
+#multiplication-form {
+  flex-direction: column;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#multiplication-table {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-control {
+  text-align: center;
+  display: flex;
+}
+
+#submit-btn {
+  margin: 30px;
+  height: 30px;
+  width: 200px;
+  background: #cae;
+  border: solid 1px #7700ff47;
+  border-radius: 12px;
+}
+
+#multiplication-form {
+  background: #eee;
+}
